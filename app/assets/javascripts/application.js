@@ -12,5 +12,8 @@
 //= require backbone_rails_sync
 //= require backbone_datalink
 //= require backbone/backbone_fo
+//
+//= require extensions/backbone.collection.idempotent
+//= require backbone_sync-rails/rails_faye_subscriber
 
 //= require_tree .

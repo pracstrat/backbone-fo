@@ -18,7 +18,7 @@ end
 
 gem 'jquery-rails'
 gem 'rails-backbone'
-
+gem 'backbone_sync-rails', :git => 'git://github.com/linjunpop/backbone_sync-rails.git'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
