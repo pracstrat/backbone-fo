@@ -1,0 +1,8 @@
+<div id="posts"></div>
+
+<%= javascript_tag do %>
+  $(function() {
+    window.router = new BackboneFo.Routers.PostsRouter({posts: <%= @posts.to_json.html_safe -%>});
+    Backbone.history.start();
+  });
+<% end %>
