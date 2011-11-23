@@ -44,5 +44,8 @@ module BackboneFo
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    # Observer
+    config.active_record.observers = :post_observer
   end
 end
